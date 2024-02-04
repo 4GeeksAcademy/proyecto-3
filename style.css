@@ -1,3 +1,15 @@
-.form¨{
-    displey
+.body{
+}
+.contenedor{
+    width: 800px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 350px;
+}
+.title{
+    background-color: rgb(236, 210, 242);
+}
+.buttonstyle{
+    background-color: rgb(208, 89, 165) ;
+    width: 100%;
 }
