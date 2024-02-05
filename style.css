@@ -1,15 +1,41 @@
 .body{
 }
 .contenedor{
+    border: 3px solid blue;
     width: 800px;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 1px;
     margin-left: 350px;
 }
 .title{
+    border: 2px solid blue;
     background-color: rgb(236, 210, 242);
 }
-.buttonstyle{
-    background-color: rgb(208, 89, 165) ;
+.principio{
+    
+    background-color: rgb(208, 153, 188) ;
     width: 100%;
+}
+.campo{
+    margin: 0 auto 1.25rem auto;
+}
+.campo-input{
+    display: block;
+}
+.campo-textarea{
+    min-height:100px;
+    width: 100%;
+    padding: 0.62rem;
+    resize: vertical;
+}
+.form-group{
+    display: flex;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+    margin-bottom: 20px;
+}
+.accept{
+    background-color:grey;
+    width: 20%;
+    padding: 5px;
 }
