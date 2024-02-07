@@ -1,20 +1,22 @@
 .body{
 }
 .contenedor{
-    border: 3px solid blue;
-    width: 800px;
+    border: 3px solid rgb(154, 154, 221);
+    width: 900px;
     margin-top: 50px;
     margin-bottom: 1px;
     margin-left: 350px;
+    height: 700px;
 }
 .title{
-    border: 2px solid blue;
+    border: 2px solid rgb(154, 154, 221);
     background-color: rgb(236, 210, 242);
 }
 .principio{
     
     background-color: rgb(208, 153, 188) ;
-    width: 100%;
+    width: 98%;
+    margin: 5px 5px 5px 5px;
 }
 .campo{
     margin: 0 auto 1.25rem auto;
@@ -22,20 +24,28 @@
 .campo-input{
     display: block;
 }
-.campo-textarea{
+.cuadro{
     min-height:100px;
-    width: 100%;
-    padding: 0.62rem;
-    resize: vertical;
+    width: 800;
+    
 }
 .form-group{
     display: flex;
     grid-template-columns: repeat(2,1fr);
     grid-gap: 10px;
     margin-bottom: 20px;
+
+
 }
 .accept{
     background-color:grey;
     width: 20%;
     padding: 5px;
+    height: 35px;
+}
+.footer{
+border: 2px solid rgb(154, 154, 221);
+background-color: rgb(236, 210, 242);
+display: flex;
+justify-content:right ;
 }

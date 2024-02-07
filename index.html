@@ -22,42 +22,43 @@
             <label for="number">Card #</label>
           <input type="text" id="number" placeholder="xxxxxxxxxxxxxxxx" required class="campo-input">
               </div>
-          <div class="campo">
+          <div class="campo 1">
           <label for="number">CVC #</label>
           <input type="text" id="number" placeholder="0000"  required class="campo-input">
           </div>
           <div class="campo">
-          <label for="number">Amoun </label>
-          <input type="text" id="number" placeholder="Amoun" required class="campo-input">
+          <label for="number">Amoun</label>
+          <input type="text" id="number"  placeholder="Amoun" required class="campo-input">
           </div>
       </div>
-      <div class="form-group">
+      <div class="form-group 2">
                <div class="campo">
           <label for="number">First name </label>
-          <input type="text" id="number"  required class="campo-input">
+          <input type="text" id="number"  required class="campo-input" size="45">
                </div>
-          <div class="campo">
+          <div class="campo 3">
           <label for="number">Last name </label>
-          <input type="text" id="number"required class="campo-input" >
+          <input type="text" id="number"required class="campo-input" size="50" >
           </div>
       </div>
       <div class="form-group">
           <div class="campo">
           <label for="number">City </label>
-          <input type="text" id="number" required class="campo-input" >
+          <input type="text" id="number" required class="campo-input" size="45" >
           </div>
           <div class="campo">
           <label for="number">State </label>
-          <input type="number" id="number" placeholder="Pick a state" required class="campo-input">
+          <input type="number" id="number" placeholder="Pick a state" required class="campo-input" max="malaga benalmadena fuengir" min="0" size="10">
           </div>
           <div class="campo">
           <label for="number">Postal code</label>
-          <input type="text" id="number" required class="campo-input" >
+          <input type="text" id="number" required class="campo-input" size="15">
           </div>
       </div>
-      
+      <div>
+      <label for="text">we accept</label>
+    </div>
       <div class="form-group">
-          <label for="text">we accept</label>
         <div class="accept">
           <input type="radio" name="tarjetas" id="iconos">
           <label for="iconos"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-credit-card" viewBox="0 0 16 16">
@@ -82,16 +83,16 @@
         </div>
           <div class="campo">
             <p>message</p>
-            <textarea class="campo_textarea"></textarea>
+            <div class="cuadro">
+            <textarea name="..." id="mesa" cols="60" rows="5"></textarea> <p>add ani notes gere</p>
             </div>
-      
-
-        <div style="text-align: right;">
-        <div class="card-footer bg-transparent border-success"><button type="button" class="btn btn-secondary">canceled</button>
-          <button type="button" class="btn btn-primary">send</button></div>
+          </div>
+        </div>
+      <div class="footer">
+        <button type="button" class="btn btn-secondary">canceled</button>
+        <button type="button" class="btn btn-primary">send</button>
       </div>
-</div>
-</div>
+    </div>
 </form>
 </body>
 </html>
